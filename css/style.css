@@ -1,0 +1,260 @@
+* {
+    margin:0; padding:0;
+    font-size:inherit;
+    color:inherit;
+    -webkit-font-smoothing: antialiased;
+}
+button::-moz-focus-inner {padding:0;border:0;}
+a {outline:none;
+    text-decoration:none;
+    background-color:transparent;
+
+}
+img {border:none;}
+html {height: 100%;}
+
+header{
+    font-family: GothamMedium;
+    color: #FFFFFF;
+}
+
+body {
+    height: auto !important;
+    min-height: 100%;
+    position: relative;
+    font-size:13px;
+    color:#575757 ;
+    background-image: url("../images/main_bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top center;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    margin-top: 36px;
+    margin-bottom: 34px;
+}
+
+h2{
+    text-align: right;
+    background-color: #575757;
+}
+
+
+.block{
+    float: right;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+span{
+    display: block;
+    text-align: right;
+}
+
+.sales{
+    color: #ababab;
+    display: inline-block;
+}
+
+.products{
+    margin-right: 32px;
+}
+
+.support{
+    margin-right: 35px;
+}
+
+.search{
+    width: 169px;
+    margin-right: 20px;
+    background-color: black;
+    color: #757575;
+    padding-left: 11px;
+    line-height: 26px;
+    border: solid #464646;
+}
+
+.fa-comment{
+    color: #05abda;
+}
+
+.fa-shopping-cart{
+    margin-left: 15px;
+    color: #05abda;
+}
+
+.container:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+div .owl-nav{
+    display: none;
+}
+
+div .owl-dots {
+    position: absolute;
+    top: 19px;
+    right: 19px;
+}
+
+div .owl-dots .owl-dot{
+    width: 9px;
+    height: 9px;
+    margin: 5px;
+    background: ghostwhite;
+    display: inline-block;
+    border-radius: 0;
+}
+
+div .owl-dot.active{
+    background: #848484;
+}
+
+.connecting{
+    width: 216px;
+    line-height: 58px;
+    text-align: center;
+    color: white;
+    background-color: #208bbd;
+    font-size: 25px;
+    font-family: GothamMedium;
+    position: relative;
+    z-index: 1;
+    margin-top: -78px;
+    margin-left: 20px;
+}
+
+.block-1, .block-2, .block-3{
+    float: left;
+    margin-top: 45px;
+    position: relative;
+
+}
+
+.block-1, .block-2{
+    margin-right: 21px;
+}
+
+.block-1 img, .block-3 img{
+    padding-bottom: 20px;
+}
+
+.connect{
+    width: 167px;
+    line-height: 58px;
+    text-align: center;
+    color: white;
+    background-color: #208bbd;
+    font-size: 25px;
+    font-family: GothamMedium;
+    position: absolute;
+    z-index: 1;
+    top: 139px;
+    left: 20px;
+}
+
+.intro{
+    width: 225px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+    color: white;
+    background-color: #208bbd;
+    font-size: 25px;
+    font-family: GothamMedium;
+    position: absolute;
+    z-index: 1;
+    top: 335px;
+    left: 20px;
+
+}
+
+.connecting:hover, .connect:hover, .intro:hover{
+    background-color: black;
+}
+
+footer{
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.block-4, .block-5{
+    width: 50%;
+    float: left;
+}
+
+.block-4, .block-5{
+    padding-bottom: 18px;
+}
+
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #767776;
+    font-size: 12px;
+    font-family: GothamMedium;
+    padding-top: 19px;
+}
+
+.nyrius{
+    margin-top: 18px;
+    text-align: left;
+    color: #565956;
+    font-size: 11px;
+    font-family: GothamMedium;
+}
+
+.lang{
+    font-size: 12px;
+    font-family: GothamMedium;
+    color: #656565;
+    margin-right: 37px;
+    margin-left: 34px;
+}
+
+.newsletter{
+    font-size: 12px;
+    font-family: GothamMedium;
+    color: #767776;
+    margin-right: 11px;
+
+}
+
+.email{
+    border-radius: 20px;
+    width: 170px;
+    line-height: 20px;
+    background-color: black;
+    color: #757575;
+    padding-left: 11px;
+    border: solid #464646;
+    font-size: 12px;
+    font-family: GothamMedium;
+
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube{
+    padding-top: 11px;
+}
+
+.fa{
+    padding-left: 11px;
+}
+
+.block-5-1{
+    padding-top: 13px;
+}
