@@ -197,7 +197,7 @@ footer{
 }
 
 .block-4, .block-5{
-    padding-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 
@@ -207,7 +207,7 @@ li{
     color: #767776;
     font-size: 12px;
     font-family: GothamMedium;
-    padding-top: 19px;
+    margin-top: 19px;
 }
 
 .nyrius{
@@ -236,7 +236,7 @@ li{
 
 .email{
     border-radius: 20px;
-    width: 170px;
+    width: 177px;
     line-height: 20px;
     background-color: black;
     color: #757575;
@@ -256,5 +256,10 @@ li{
 }
 
 .block-5-1{
-    padding-top: 13px;
+    margin-top: 10px;
+
+}
+
+.social {
+    text-align: right
 }
